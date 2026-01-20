@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1000",
+    "title": "React Portfolio Website",
+    "description": "A modern personal portfolio built with React and SCSS showcasing projects and skills.",
+    "tags": ["React", "SCSS", "JavaScript"],
+    "repoLink": "https://github.com/facebook/react",
+    "demoLink": "https://react.dev/"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?w=1000",
+    "title": "Node.js REST API",
+    "description": "Scalable REST API with Express, JWT authentication, and MongoDB integration.",
+    "tags": ["Node.js", "Express", "MongoDB", "JWT"],
+    "repoLink": "https://github.com/expressjs/express",
+    "demoLink": null
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000",
+    "title": "SecureAuth Backend Service",
+    "description": "Authentication microservice with role-based access and OAuth2 support.",
+    "tags": ["Python", "Django", "PostgreSQL", "JWT"],
+    "repoLink": "https://github.com/django/django",
+    "demoLink": null
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?w=1000",
+    "title": "E-commerce Web App",
+    "description": "Full-stack e-commerce application with cart, payments, and admin dashboard.",
+    "tags": ["React", "Node.js", "Stripe", "MongoDB"],
+    "repoLink": "https://github.com/vercel/commerce",
+    "demoLink": "https://commerce.vercel.app/"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?w=1000",
+    "title": "Real-Time Chat App",
+    "description": "WebSocket-based real-time chat application with user authentication.",
+    "tags": ["Socket.io", "Node.js", "React"],
+    "repoLink": "https://github.com/socketio/socket.io",
+    "demoLink": null
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1000",
+    "title": "Task Management Tool",
+    "description": "Productivity app to manage daily tasks with drag-and-drop support.",
+    "tags": ["React", "TypeScript", "Redux"],
+    "repoLink": "https://github.com/reduxjs/redux",
+    "demoLink": null
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1556155092-490a1ba16284?w=1000",
+    "title": "Analytics Dashboard",
+    "description": "Interactive dashboard with charts and data visualization.",
+    "tags": ["Chart.js", "React", "Dashboard"],
+    "repoLink": "https://github.com/chartjs/Chart.js",
+    "demoLink": null
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1000",
+    "title": "Blog CMS Platform",
+    "description": "Content management system with markdown editor and SEO optimization.",
+    "tags": ["Next.js", "CMS", "Markdown"],
+    "repoLink": "https://github.com/vercel/next.js",
+    "demoLink": "https://nextjs.org/"
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1000",
+    "title": "DevOps CI/CD Pipeline",
+    "description": "Automated CI/CD pipeline using Docker and GitHub Actions.",
+    "tags": ["Docker", "CI/CD", "GitHub Actions"],
+    "repoLink": "https://github.com/docker/docker-ce",
+    "demoLink": null
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1537432376769-00aabc0c1d44?w=1000",
+    "title": "Machine Learning API",
+    "description": "REST API serving machine learning models for predictions.",
+    "tags": ["Python", "FastAPI", "Machine Learning"],
+    "repoLink": "https://github.com/tiangolo/fastapi",
+    "demoLink": null
+  }
+]

@@ -1,0 +1,42 @@
+.window {
+    height: 500px;
+    width: 500px;
+    background-color: #060606;
+    color: white;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    .nave {
+        display: flex;
+
+        align-items: center;
+        gap: 1rem;
+        color: rgba(255, 255, 255, 0.809);
+
+        .dots {
+            display: flex;
+            gap: 0.25rem;
+            padding: 0.75rem;
+
+            .red,
+            .yellow,
+            .green {
+                height: 15px;
+                width: 15px;
+                border-radius: 50%;
+            }
+
+            .red {
+                background-color: #FF605C;
+            }
+
+            .yellow {
+                background-color: #FFBD44;
+            }
+
+            .green {
+                background-color: #00CA4E;
+            }
+        }
+
+    }
+}
