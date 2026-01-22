@@ -3,7 +3,14 @@ import {Rnd} from 'react-rnd'
 import './window.scss'
 const MacWindows = (props) => {
   return (
-    <Rnd>
+    <Rnd default={
+        {
+            width:"40vw",
+            height:"40vh",
+            x:300,
+            y:200
+        }
+    }>
         <div className='window'>
             <div className="nave">
                 <div className="dots">

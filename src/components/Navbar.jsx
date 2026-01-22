@@ -23,7 +23,7 @@ const Navbar = () => {
 </div>
 <div className="right">
     <div className="wifi">
-       <i class="ri-wifi-line"></i>
+       <i className="ri-wifi-line"></i>
     </div>
 
     <div className="nav-items">
