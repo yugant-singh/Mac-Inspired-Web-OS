@@ -6,7 +6,7 @@ const Navbar = () => {
  <nav className='nav'>
 <div className="left">
     <div className="apple-logo">
-        <img src="public/nav-svg/apple-logo (1).svg" alt="" />
+        <img src="./navbar-icons/apple.svg" alt="" />
     </div>
     <div className="nav-items">
         <p>Yugant Singh</p>
