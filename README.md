@@ -1,16 +1,82 @@
-# React + Vite
+# 🖥️ Mac-Inspired Web OS (Portfolio)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **macOS-inspired Web Operating System** built using **React**, designed as an interactive developer portfolio.  
+Instead of a traditional website, this project presents portfolio sections as **desktop apps inside draggable macOS-style windows**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features (Implemented)
 
-## React Compiler
+- 🪟 **Draggable & Resizable Windows**  
+  - Built using `react-rnd`
+  - Each app opens inside a macOS-style window
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🟥🟨🟩 **macOS Window UI**
+  - Custom title bar with red, yellow, and green buttons
+  - Reusable `MacWindows` component
 
-## Expanding the ESLint configuration
+-  **GitHub Projects App**
+  - Displays projects using data from a JSON file
+  - Shows project image, description, tags, repository & demo links
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-  **Notes App**
+  - Loads content from a local text file
+  - Displays notes/code using syntax highlighting
+
+-  **Resume App**
+  - Embedded PDF resume viewer inside a window
+
+-  **Spotify App**
+  - Embedded Spotify playlist for personalization
+
+---
+
+##  Tech Stack
+
+- **React**
+- **Vite**
+- **SCSS**
+- **react-rnd** (window drag & resize)
+- **react-syntax-highlighter**
+- **Spotify Embed**
+
+---
+
+##  Project Structure (Simplified)
+
+
+---
+
+##  Project Goal
+
+The goal of this project is to:
+- Showcase frontend skills in a **creative, non-traditional way**
+- Simulate a **desktop OS experience on the web**
+- Build reusable UI systems instead of static pages
+
+This project is part of my learning journey and will be continuously improved with more OS-like features.
+
+---
+
+##  Planned Enhancements
+
+- Dock with app icons
+- Window minimize / maximize / close functionality
+- Active window focus system
+- Terminal-style command app
+- Theme & settings panel
+- Better mobile responsiveness
+
+---
+
+##  Author
+
+**Yugant Singh**  
+Frontend Developer 
+- GitHub: https://github.com/yugant-singh
+
+---
+
+
+
+T
