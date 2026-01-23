@@ -1,10 +1,12 @@
 .window {
     height: 100%;
+    width: 100%;
     background-color: #060606;
  overflow: hidden;
     color: white;
     border-radius: 0.8rem;
     overflow: hidden;
+   position:absolute;
     .nave {
         display: flex;
 
@@ -44,4 +46,14 @@
         height: 100%;
         padding: 1rem;
     }
+
+    *::-webkit-scrollbar{
+        width: 5px;
+    }
+    *::-webkit-scrollbar-thumb{
+        background-color: #444;
+        border-radius: 4px;
+        
+    }
+   
 }
