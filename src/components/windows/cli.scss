@@ -1,0 +1,35 @@
+:root {
+  --terminal-color: #00ff00;
+  --terminal-bg: #000000;
+  
+}
+
+.cli-window{
+    height: 100%;
+    
+  background-color: #070707;
+
+[name="react-console-emulator"] {
+    height: 100%;
+  background-color: var(--terminal-bg) !important;
+  color: var(--terminal-color) !important;
+  font-family: 'Courier New', monospace;
+}
+
+/* FORCE ALL CHILDREN */
+[name="react-console-emulator"] * {
+  color: var(--terminal-color) !important;
+  caret-color: var(--terminal-color);
+}
+
+/* PROMPT */
+[name="react-console-emulator__prompt-label"] {
+  font-weight: bold;
+}
+
+/* INPUT */
+[name="react-console-emulator__input"] {
+  background: transparent;
+  border: none;
+}
+}
