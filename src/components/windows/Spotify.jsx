@@ -1,10 +1,10 @@
 import React from 'react'
 import './spotify.scss'
 import MacWindows from './MacWindows.jsx'
-const Spotify = () => {
+const Spotify = ({windowName,setOpenWindows}) => {
   return (
     
-    <MacWindows>
+    <MacWindows windowName={windowName} setOpenWindows={setOpenWindows}>
         <div className="spotify-box">
         
 

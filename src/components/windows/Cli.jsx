@@ -184,9 +184,9 @@ Portfolio: https://yugantsingh.dev`
   }
 }
 
-const Cli = () => {
+const Cli = ({windowName,setOpenWindows}) => {
   return (
- <MacWindows>
+ <MacWindows windowName={windowName} setOpenWindows={setOpenWindows}>
    <div className="cli-window">
 <Terminal
   commands={commands}

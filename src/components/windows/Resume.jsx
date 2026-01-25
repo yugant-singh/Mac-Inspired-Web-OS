@@ -1,10 +1,10 @@
 import React from 'react'
 import MacWindows from './MacWindows.jsx'
 import './resume.scss'  
-const Resume = () => {
+const Resume = ({windowName,setOpenWindows}) => {
   return (
     
-    <MacWindows>
+    <MacWindows windowName={windowName} setOpenWindows={setOpenWindows}>
         <div className="resume-box">
 <embed src="/resume.pdf" type="" />
         </div>
