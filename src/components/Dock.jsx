@@ -1,6 +1,7 @@
 import { github } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import './dock.scss'
 import Spotify from './windows/Spotify';
+import Settings from './windows/Settings';
 
 const Dock = ({openWindows,setOpenWindows}) => {
     console.log(openWindows);
@@ -12,6 +13,8 @@ const Dock = ({openWindows,setOpenWindows}) => {
                 setOpenWindows(state=>({...state,github:true}))  
              }}
             className='icon github'><img src="/doc-icons/github.svg" alt="" /></div>
+
+
             <div
              onClick={()=>{
                 setOpenWindows(state=>({...state,note:true}))  
@@ -35,6 +38,13 @@ const Dock = ({openWindows,setOpenWindows}) => {
              }}
             className='icon cli'><img src="/doc-icons/cli.svg" alt="" /></div>
             <div className='icon link'><img src="/doc-icons/link.svg" alt="" /></div>
+
+
+ <div
+             onClick={()=>{
+                setOpenWindows(state=>({...state,settings:true}))  
+             }}
+            className='icon settings'><img src="/doc-icons/apple-settings.svg" alt="" /></div>
 
         </footer>
     )
