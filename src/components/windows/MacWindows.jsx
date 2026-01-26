@@ -5,10 +5,10 @@ const MacWindows =  ({ children, windowName ,openWindow,setOpenWindows}) => {
   return (
     <Rnd default={
         {
-            width:"40vw",
-            height:"40vh",
+            width:"60vw",
+            height:"70vh",
             x:300,
-            y:200
+            y:60
         }
     }>
         <div className='window'>

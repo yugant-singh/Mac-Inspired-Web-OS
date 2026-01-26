@@ -1,5 +1,6 @@
 import React from 'react'
 import MacWindows from './MacWindows'
+import './settings.scss'
 
 const Settings = ({ windowName, setOpenWindows, setWallpaper ,wallpaper }) => {
 
@@ -12,26 +13,17 @@ const Settings = ({ windowName, setOpenWindows, setWallpaper ,wallpaper }) => {
 
     ]
     return (
-        <MacWindows windowName={windowName} setOpenWindows={setOpenWindows} >
-            <div style={{ padding: "20px" }}>
+        <MacWindows  windowName={windowName} setOpenWindows={setOpenWindows} >
+            <div className='setting-window'>
 
                 <h2>Choose Wallpaper</h2>
-                <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: '1fr 1fr',
-                    gap: '10px'
-
-                }}>
+                <div className='wallpaper-box'>
 
                     {wallpapers.map((wall) => {
                         return <img key={wall} src={wall}
                             onClick={() => { setWallpaper(wall) }}
                             style={{
-                                width: '100%',
-                                height: '100px',
-                                objectFit: 'cover',
-                                cursor: 'pointer',
-                                border: wallpaper === wall ? '3px solid lime' : '2px solid white'
+                               border: wallpaper === wall ? '3px solid lime' : '2px solid white'
                             }}
                         />
 

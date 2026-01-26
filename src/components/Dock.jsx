@@ -4,7 +4,7 @@ import Spotify from './windows/Spotify';
 import Settings from './windows/Settings';
 
 const Dock = ({openWindows,setOpenWindows}) => {
-    console.log(openWindows);
+    
     
     return (
         <footer className='dock'>
