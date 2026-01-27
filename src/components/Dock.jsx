@@ -43,7 +43,12 @@ const Dock = ({ openWindows, setOpenWindows }) => {
                setOpenWindows(state => ({ ...state, cli: true }))
             }}
             className='icon cli'><img src="/doc-icons/cli.svg" alt="" /></div>
-         <div className='icon link'><img src="/doc-icons/link.svg" alt="" /></div>
+         <div 
+          
+          onClick={()=>{
+            window.open("https://www.linkedin.com/in/yugant-singh","_blank")
+          }}
+         className='icon link'><img src="/doc-icons/link.svg" alt="" /></div>
 
 
          <div
