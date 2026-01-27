@@ -173,7 +173,7 @@ Portfolio: https://yugantsingh.dev`
     description: 'Open GitHub profile',
     usage: 'github',
     fn: () => {
-      window.open('https://github.com/yugantsingh', '_blank')
+      window.open('https://github.com/yugant-singh', '_blank')
       return 'Opening GitHub profile...'
     }
   },
