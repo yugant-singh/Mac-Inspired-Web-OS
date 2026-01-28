@@ -2,7 +2,7 @@
 
 A modern, interactive portfolio built with React, featuring a MacOS-inspired interface with dynamic wallpapers, keyboard shortcuts, context menus, and smooth animations.
 
-![Portfolio Banner](https://mac-inspired-web-os.vercel.app/)
+## Live -Demo - (https://mac-inspired-web-os.vercel.app/)
 
 ---
 
